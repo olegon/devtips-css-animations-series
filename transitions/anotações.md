@@ -11,7 +11,7 @@ Vivacidade no falar, no olhar, nos movimentos.
 A ideia central de animação é movimento. Movimento com CSS pode ser obtido de duas maneiras:
 
 1. Propriedade `transition`
-2. Propriedade `animation` + `keyframes`
+2. Propriedade `animation` + `keyframes` *[(link)](../animations/anotações.md)*
 
 ### A propriedade `transition`
 
@@ -21,11 +21,11 @@ A ideia central de animação é movimento. Movimento com CSS pode ser obtido de
 
 ```css
 .element {
-    transition: [propriedade] [duração] [função-de-timing] [atraso], [propriedade-2] [duração-2] [função-de-timing-2] [atraso-2], ...;
+    transition: [property] [duration] [timing-function] [delay], [property] [duração] [timing-function] [delay], ...;
 }
 ```
 
-As propriedades `[função-de-timing]` e `[atraso]` têm, respectivamente, como valor padrão `ease` e `0ms`.
+As propriedades `[timing-function]` e `[delay]` têm, respectivamente, como valor padrão `ease` e `0ms`.
 
 #### O que pode ser animado?
 
@@ -39,7 +39,7 @@ As propriedades mais performáticas para animação são `transform (translate, 
 
 *Repare que `transition` e `transform` são coisas **diferentes**!*
 
-#### Como disparar as animações?
+#### Como disparar as transitions?
 
 É muito comum disparar a animação de um elemento quando:
 
