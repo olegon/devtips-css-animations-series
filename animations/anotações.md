@@ -1,6 +1,8 @@
 # Minhas anotações
 
-## CSS Transition (CSS Animations Series Part 2)
+Anotações do [vídeo CSS Transition (CSS Animations Series Part 2)](https://www.youtube.com/watch?v=f1WMjDx4snI)
+
+## *CSS Animations* e *CSS Keyframes*
 
 ```
 animação
@@ -56,7 +58,7 @@ Keyframes permitem especificar o que acontecerá durante a animação por etapas
 /* Caso estranho, mas funciona! :} */
 ```
 
-### Propriedade `animation`
+### A propriedade `animation`
 
 ```css
     .element {

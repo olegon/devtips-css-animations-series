@@ -1,6 +1,8 @@
 # Minhas anotações
 
-## CSS Transition (CSS Animations Series Part 1)
+Anotações do [vídeo CSS Transition (CSS Animations Series Part 1)](https://www.youtube.com/watch?v=8kK-cA99SA0)
+
+## *CSS Transitions*
 
 ```
 animação
