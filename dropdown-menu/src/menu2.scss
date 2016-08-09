@@ -1,0 +1,23 @@
+/* Menu 02 */
+li:hover> ul.drop-menu.menu-2 li {
+    perspective: 1000px;
+    animation: menu2 300ms ease-in-out;
+    animation-fill-mode: forwards;
+
+    @for $i from 1 through 6 {
+        &:nth-child(#{$i}) {
+            animation-delay: 100ms * $i - 100ms;
+        }
+    }
+}
+
+@keyframes menu2 {
+    0% {
+        opacity: 0.0;
+        transform: rotateY(-90deg);
+    }
+    100% {
+        opacity: 1.0;
+        transform: rotateY(0) translateY(0);
+    }
+}
