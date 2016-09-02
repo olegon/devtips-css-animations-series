@@ -97,4 +97,4 @@ Keyframes permitem especificar o que acontecerá durante a animação por etapas
 
 1. A pseudo-class `:hover` é acionada *(também se aplica à propriedade `transition`)*
 2. Ao alterar sua classe *(também se aplica à propriedade `transition`)*
-3. Um novo elemento é adicionado, e já é animado de cara. *(NÃO se aplica à propriedade `trasition`)*
+3. Um novo elemento é adicionado, e já é animado de cara. *(**NÃO** se aplica à propriedade `trasition`)*
