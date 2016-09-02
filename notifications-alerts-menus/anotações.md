@@ -48,7 +48,7 @@ Começar com um `scale(0.0)` pode ser problemático em alguns navegadores. Use, 
 
 Para se inspirar, assista esse [vídeo](https://www.youtube.com/watch?v=jn5OB12u8Pw).
 
-Usar uma animação que rotaciona um objeto de *0deg* até *90deg* pode ficar muito estático. Pode ficar melhor se o objeto voltasse um pouco até *-10deg*, avançasse até *100deg* e finalmente voltasse até *90deg*. Pense em um ônibus saindo do repouso e parando.
+Usar uma animação que rotaciona um objeto de *0deg* até *90deg* pode ficar muito estático. Pode ficar melhor se o objeto voltasse um pouco até *-10deg*, avançasse até *100deg* e finalmente voltasse até *90deg*. Pense em um ônibus saindo do repouso e parando. Esse resultado também pode ser obtido através de um *timing-function* como `cubic-bezier(0, 0.6, 0.35, 1.4)`.
 
 Outra dica é combinar rotações como acontece em `0%`. Foi combinado `rotate(30deg)` com `rotateX(90deg)`.
 
@@ -77,7 +77,7 @@ Outra dica é combinar rotações como acontece em `0%`. Foi combinado `rotate(3
 
 #### Crescimento horizontal/vertical
 
-Uma boa técnica para simular o crescimento horizontal ou vertical de um elemento é através da rotação no eixo Y (`rotateY`) ou no eixo Y (`rotateY`), respectivamente, junto com `transform-origin`.
+Uma boa técnica para simular o crescimento horizontal ou vertical de um elemento é através da rotação no eixo X (`rotateX`) ou no eixo Y (`rotateY`), respectivamente, junto com `transform-origin`.
 
 ```css
 div {
@@ -98,23 +98,3 @@ div {
   }
 }
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.
