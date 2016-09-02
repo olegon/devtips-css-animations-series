@@ -78,7 +78,7 @@ Keyframes permitem especificar o que acontecerá durante a animação por etapas
 
 #### Valores da propriedades
 
-- *`animation-name`*: O nome do \@keyframes.
+- *`animation-name`*: O nome do `@keyframes`.
 - *`animation-iteration-count`*: Indica a quantidade de vezes que a animação se repetirá.
     - Aceita um inteiro ou a palavra `infinite`.
 - *`animation-direction`*: Indica o sentido na animação.
@@ -97,4 +97,4 @@ Keyframes permitem especificar o que acontecerá durante a animação por etapas
 
 1. A pseudo-class `:hover` é acionada *(também se aplica à propriedade `transition`)*
 2. Ao alterar sua classe *(também se aplica à propriedade `transition`)*
-3. Um novo elemento é adicionado. *(o elemento já aparece sendo animado!)*
+3. Um novo elemento é adicionado, e já é animado de cara. *(NÃO se aplica à propriedade `trasition`)*

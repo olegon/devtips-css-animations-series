@@ -82,7 +82,7 @@ As propriedades mais performáticas para animação são `transform (translate, 
 </div>
 ```
 
-A grande dica aqui é a propriedade `pointer-events: none;`. Como `.box` é parte de `.trigger-container`, o `:hover` de `.box` **também** ativará a animação. Essa propriedade serve justamente para impedir eventos pointer!
+A grande dica aqui é a propriedade `pointer-events: none;`. Como `.box` é parte de `.trigger-container`, o `:hover` de `.box` **também** ativará a animação. Essa propriedade serve justamente para impedir eventos pointer em `.box`!
 
 Além disso, a animação é acionada no elemento `.trigger` através de `.trigger-container:hover` e não no elemento `.box` que recebe a animação. Isso é feito porque, caso contrário, o cursor do mouse teria de seguir o elemento para a animação não ser interrompida. Dessa maneira, a animação só interrompida se o mouse sair de cima do elemento `trigger`.
 
