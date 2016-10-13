@@ -36,7 +36,7 @@ As propriedades `[timing-function]` e `[delay]` têm, respectivamente, como valo
 
 Uma boa regra de ouro é pensar que qualquer propriedade que tenha um valor intermediário pode ser animada. Propriedades como `font-size`, `background-color` e `width`, por exemplo, possuem valores intermediários; pense em animar `font-size` de `10px` para `16px`: há os valores `11px`, `12px`, `12.25px` etc. O mesmo acontece para `background-color` e `width`. Aqui pode ser encontrada [uma lista de propriedades animáveis](http://oli.jp/2010/css-animatable-properties/).
 
-#### O que deve ser animado?
+#### Quais propriedades devem ser animadas?
 
 As propriedades mais performáticas para animação são `transform (translate, scale, rotation etc)` e `opacity`.
 
