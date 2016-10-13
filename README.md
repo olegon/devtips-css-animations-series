@@ -7,3 +7,4 @@ Respositório com as minhas anotações da [série  CSS Animations](https://www.
 - [Anotações sobre *"Quando usar uma animação"*](using-animations/anotações.md).
 - [Anotações sobre *Dropdown Menu*](dropdown-menu/anotações.md).
 - [Anotações sobre *Notifications, Alerts, Menus*](notifications-alerts-menus/anotações.md).
+- [Anotações sobre *Spinners, Loaders, and Junk*](spinners-loaders-etc/anotações.md).
